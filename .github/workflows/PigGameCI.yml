@@ -29,4 +29,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deplying using surge
-      run: surge ./ piggamebyoxmat.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+      run: surge ./ piggamebyoxmat.surge.sh --token ${{ secrets.SURGE_TOKEN }}
